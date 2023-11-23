@@ -4,7 +4,7 @@ function goToPage(page) {
     window.location.href = newPagePath;
 }
 
-var homeButton = document.getElementById('home');
+var homeButton = document.getElementById('index');
 var cityButton = document.getElementById('city');
 
 homeButton.addEventListener('click', function() {
