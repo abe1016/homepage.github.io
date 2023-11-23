@@ -8,7 +8,7 @@ var homeButton = document.getElementById('home');
 var cityButton = document.getElementById('city');
 
 homeButton.addEventListener('click', function() {
-    goToPage('home');
+    goToPage('index');
 });
 
 cityButton.addEventListener('click', function() {
